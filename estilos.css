@@ -41,7 +41,7 @@ body {
 	gap: 20px;
 }
 
-.conciertos__card {
+.conciertos__card,.banner {
 	background-color: #fff;
 	background-position: center center;
 	background-size: cover;
