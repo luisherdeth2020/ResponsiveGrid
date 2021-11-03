@@ -21,6 +21,7 @@ body {
 	padding: 40px;
 	margin: auto;
 	display: grid;
+	/* grid-template-columns: repeat(auto-fill,minmax(15rem,1fr)); */
 	grid-template-columns: 3fr 1fr;
 	/* grid-template-columns: 1fr auto; */
 	width: 90%;
@@ -100,6 +101,9 @@ body {
 	text-align: center;
 }
 @media screen and (max-width: 900px) {
+	.container{
+		grid-template-columns: auto;
+	}
 }
 
 @media screen and (max-width: 700px) {
