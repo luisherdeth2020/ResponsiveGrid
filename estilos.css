@@ -9,6 +9,9 @@
 body {
 	color: #fff;
 	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
 	font-family: 'Roboto', sans-serif;
 
 	/* luis T. */
@@ -18,11 +21,12 @@ body {
 	max-width: 1200px;
 	margin: auto;
 }
+
 .container {
 	/* max-width: 1200px; */
 
 	padding: 40px;
-	margin: auto;
+	/* margin: auto; */
 	display: grid;
 	/* grid-template-columns: repeat(auto-fill,minmax(15rem,1fr)); */
 	grid-template-columns: 3fr 1fr;
@@ -37,8 +41,8 @@ body {
 	/* ? Aquí existe OVERFLOW */
 	/* grid-template-columns: repeat(auto-fill,minmax(25rem,1fr)); */
 	/* TODO SOLUCIÓN min(100%,25rem) */
-	grid-template-columns: repeat(auto-fill,minmax(min(100%,15rem),1fr));
-	gap: 20px;
+	grid-template-columns: repeat(auto-fill,minmax(min(100%,14rem),1fr));
+	gap: 18px;
 }
 
 .conciertos__card,.banner {
